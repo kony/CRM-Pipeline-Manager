@@ -1,0 +1,17 @@
+{
+    "AS_FlexContainer_df90b2ed43214a50b5d39b52014f1458": {
+        "id": "AS_FlexContainer_df90b2ed43214a50b5d39b52014f1458",
+        "type": "ACTION_SEQUENCE",
+        "params": [{
+            "datatype": "collection",
+            "name": "eventobject"
+        }],
+        "language": "js",
+        "actions": [{
+            "id": "ADD_SNIPPET_ide_onClick_213c345d90364515996514201154b5b0",
+            "type": "ADD_SNIPPET",
+            "codeSnippet": " var frmId = kony.application.getCurrentForm();\n        frmId[\"flxHamburger\"].animate(\n        kony.ui.createAnimation({      \n          100:{\n      \t\t\"left\":  \"-70%\",\n      \t\t\"stepConfig\": {\"timingFunction\": kony.anim.EASIN_IN_OUT}} \n      }),{\"fillMode\": kony.anim.FILL_MODE_FORWARDS,\"duration\": 0.20,\"delay\":0.20},{\n\t\t\t\t\"animationEnd\": function() {\n                  frmId.flxCloseMenu.isVisible = false;\n                }\n\t\t\t});",
+            "callbackType": null
+        }]
+    }
+}

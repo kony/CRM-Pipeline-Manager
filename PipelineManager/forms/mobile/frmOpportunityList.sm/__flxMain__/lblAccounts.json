@@ -1,0 +1,46 @@
+{
+    "__parentReadjusting__": false,
+    "_padding_": [
+        0,
+        0,
+        0,
+        0
+    ],
+    "_skin_": "s5f5910e49dc4adcb0f4695033be4bd4",
+    "_srcKuid_": "1c64814207f0479d995b6083c8891b72",
+    "canUpdateUI": true,
+    "channel": "mobile",
+    "context": {},
+    "dataDiffs": {
+        "centerY": {
+            "type": "string",
+            "value": "50%"
+        },
+        "height": {
+            "type": "ref",
+            "value": "preferred"
+        },
+        "id": "lblAccounts",
+        "left": {
+            "type": "string",
+            "value": "20%"
+        },
+        "text": "Accounts",
+        "textStyle": {},
+        "width": {
+            "type": "string",
+            "value": "80%"
+        },
+        "zIndex": 1
+    },
+    "id": "lblAccounts",
+    "instanceOf": "1c64814207f0479d995b6083c8891b72",
+    "isvisible": true,
+    "kuid": "mcc425ad61dc4dfabb963bab9a6ac88c",
+    "masterInstance": true,
+    "name": "kony.ui.Label",
+    "parent": "flxAccounts",
+    "pf": "frmOpportunityList",
+    "topLevelInstanceKUID": "m52ad4c4e50c480fb2949562bc0a6f8d",
+    "wType": "Label"
+}

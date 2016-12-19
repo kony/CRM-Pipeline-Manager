@@ -1,0 +1,55 @@
+{
+    "__parentReadjusting__": false,
+    "_padding_": [
+        0,
+        0,
+        0,
+        0
+    ],
+    "_skin_": "s59bc1eb7d0b40fd9c5dcb94b7457af4",
+    "_srcKuid_": "04e87cd6ab934f22abfd238f0f4a788c",
+    "canUpdateUI": true,
+    "channel": "mobile",
+    "children": [
+        "lblDashboard",
+        "imgDashboard"
+    ],
+    "context": {},
+    "dataDiffs": {
+        "clipBounds": true,
+        "enableScrolling": true,
+        "height": {
+            "type": "string",
+            "value": "8%"
+        },
+        "id": "flxDashboard",
+        "layoutType": 2,
+        "left": {
+            "type": "string",
+            "value": "0%"
+        },
+        "snapGridSize": 10,
+        "snapToGrid": true,
+        "top": {
+            "type": "string",
+            "value": "15%"
+        },
+        "width": {
+            "type": "string",
+            "value": "100%"
+        },
+        "zIndex": 1
+    },
+    "id": "flxDashboard",
+    "ide_onClick": "AS_FlexContainer_c9a2e9c9be6b4bd39e34cd22384500c0",
+    "instanceOf": "04e87cd6ab934f22abfd238f0f4a788c",
+    "isvisible": true,
+    "kuid": "m7f6990cd83348e8961118bc51ac43b6",
+    "layouttype": 2,
+    "masterInstance": true,
+    "name": "kony.ui.FlexContainer",
+    "parent": "flxMenu",
+    "pf": "frmAccountList",
+    "topLevelInstanceKUID": "m3d6611f02a1425aa308d617f6cf4c15",
+    "wType": "FlexContainer"
+}

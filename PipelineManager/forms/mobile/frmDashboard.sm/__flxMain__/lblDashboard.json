@@ -1,0 +1,46 @@
+{
+    "__parentReadjusting__": false,
+    "_padding_": [
+        0,
+        0,
+        0,
+        0
+    ],
+    "_skin_": "s5f5910e49dc4adcb0f4695033be4bd4",
+    "_srcKuid_": "1bd84c2483764f68863428f127fed371",
+    "canUpdateUI": true,
+    "channel": "mobile",
+    "context": {},
+    "dataDiffs": {
+        "centerY": {
+            "type": "string",
+            "value": "50%"
+        },
+        "height": {
+            "type": "ref",
+            "value": "preferred"
+        },
+        "id": "lblDashboard",
+        "left": {
+            "type": "string",
+            "value": "20%"
+        },
+        "text": "Dashboard",
+        "textStyle": {},
+        "width": {
+            "type": "string",
+            "value": "80%"
+        },
+        "zIndex": 1
+    },
+    "id": "lblDashboard",
+    "instanceOf": "1bd84c2483764f68863428f127fed371",
+    "isvisible": true,
+    "kuid": "m9b60acd8b7e4b37936692e7bfae540c",
+    "masterInstance": true,
+    "name": "kony.ui.Label",
+    "parent": "flxDashboard",
+    "pf": "frmDashboard",
+    "topLevelInstanceKUID": "mef5666c381649e3b8f5b600526ed760",
+    "wType": "Label"
+}

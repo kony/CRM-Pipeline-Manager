@@ -1,0 +1,384 @@
+{
+    "DNDConfig": null,
+    "__parentReadjusting__": false,
+    "_bounces_": true,
+    "_data_": [
+        {
+            "lbl123": {
+                "text": ""
+            },
+            "lbl1234": {
+                "text": ""
+            },
+            "lblAccountLocationKA": {
+                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                "text": "345 Shoreline ParkMountain View, CA90432 USA"
+            },
+            "lblAccountNameKA": {
+                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                "text": "Gene Point"
+            },
+            "lblAccountStatusKA": {
+                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                "text": ""
+            },
+            "lblFaxNumKA": {
+                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                "text": ""
+            },
+            "lblIndustryValKA": {
+                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                "text": ""
+            },
+            "lblLastActivityKA": {
+                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                "text": "2013-08-05"
+            },
+            "lblOwnerNameKA": {
+                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                "text": ""
+            },
+            "lblPhoneNumKA": {
+                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                "text": ""
+            },
+            "lblPrimeAddrsKA": {
+                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                "text": ""
+            },
+            "lblStateKA": {
+                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                "text": "Last activity: Yesterday"
+            },
+            "lblWebsiteNameKA": {
+                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                "text": ""
+            }
+        },
+        {
+            "lbl123": {
+                "text": ""
+            },
+            "lbl1234": {
+                "text": ""
+            },
+            "lblAccountLocationKA": {
+                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                "text": ""
+            },
+            "lblAccountNameKA": {
+                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                "text": ""
+            },
+            "lblAccountStatusKA": {
+                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                "text": ""
+            },
+            "lblFaxNumKA": {
+                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                "text": ""
+            },
+            "lblIndustryValKA": {
+                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                "text": ""
+            },
+            "lblLastActivityKA": {
+                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                "text": ""
+            },
+            "lblOwnerNameKA": {
+                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                "text": ""
+            },
+            "lblPhoneNumKA": {
+                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                "text": ""
+            },
+            "lblPrimeAddrsKA": {
+                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                "text": ""
+            },
+            "lblStateKA": {
+                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                "text": "Last activity: Yesterday"
+            },
+            "lblWebsiteNameKA": {
+                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                "text": ""
+            }
+        },
+        {
+            "lbl123": {
+                "text": ""
+            },
+            "lbl1234": {
+                "text": ""
+            },
+            "lblAccountLocationKA": {
+                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                "text": ""
+            },
+            "lblAccountNameKA": {
+                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                "text": ""
+            },
+            "lblAccountStatusKA": {
+                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                "text": ""
+            },
+            "lblFaxNumKA": {
+                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                "text": ""
+            },
+            "lblIndustryValKA": {
+                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                "text": ""
+            },
+            "lblLastActivityKA": {
+                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                "text": ""
+            },
+            "lblOwnerNameKA": {
+                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                "text": ""
+            },
+            "lblPhoneNumKA": {
+                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                "text": ""
+            },
+            "lblPrimeAddrsKA": {
+                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                "text": ""
+            },
+            "lblStateKA": {
+                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                "text": ""
+            },
+            "lblWebsiteNameKA": {
+                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                "text": ""
+            }
+        },
+        {
+            "lbl123": {
+                "text": ""
+            },
+            "lbl1234": {
+                "text": ""
+            },
+            "lblAccountLocationKA": {
+                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                "text": ""
+            },
+            "lblAccountNameKA": {
+                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                "text": ""
+            },
+            "lblAccountStatusKA": {
+                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                "text": ""
+            },
+            "lblFaxNumKA": {
+                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                "text": ""
+            },
+            "lblIndustryValKA": {
+                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                "text": ""
+            },
+            "lblLastActivityKA": {
+                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                "text": ""
+            },
+            "lblOwnerNameKA": {
+                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                "text": ""
+            },
+            "lblPhoneNumKA": {
+                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                "text": ""
+            },
+            "lblPrimeAddrsKA": {
+                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                "text": ""
+            },
+            "lblStateKA": {
+                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                "text": ""
+            },
+            "lblWebsiteNameKA": {
+                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                "text": ""
+            }
+        }
+    ],
+    "_enabled_": false,
+    "_height_": {
+        "type": "string",
+        "value": "100.0%"
+    },
+    "_indicator_": "none",
+    "_left_": {
+        "type": "string",
+        "value": "-4dp"
+    },
+    "_margin_": [
+        0,
+        0,
+        0,
+        0
+    ],
+    "_orientation_": 2,
+    "_padding_": [
+        0,
+        0,
+        0,
+        0
+    ],
+    "_right_": {
+        "type": "string",
+        "value": "4dp"
+    },
+    "_skin_": "seg2Normal",
+    "_top_": {
+        "type": "string",
+        "value": "0dp"
+    },
+    "_width_": {
+        "type": "string",
+        "value": "100%"
+    },
+    "alternaterowskin": "s71ee19193ee474ca79950eff08c18b5",
+    "android": {
+        "@class": "com.kony.gen.viz.model.container.property.segment2.AndroidSegment2Property",
+        "psp": {
+            "dockSectionHeaders": false
+        },
+        "render": true,
+        "viewConfig": {
+            "coverflowConfig": {
+                "isCircular": true,
+                "projectionAngle": 60
+            }
+        },
+        "viewType": "tableview"
+    },
+    "canUpdateUI": true,
+    "containerheightreference": 1,
+    "containerweight": 100,
+    "context": {
+        "channel": "mobile",
+        "formID": "AdvancedWidgetsSegements",
+        "templateType": "segments",
+        "topLevelBox": false
+    },
+    "counter": "03",
+    "enabledictionary": true,
+    "focusedindex": null,
+    "focuseditem": null,
+    "generatedtemplate": "ba49d747515e41b39499876ec08571a5",
+    "groupcells": false,
+    "hasSections": false,
+    "hiddencolumns": {
+        "lbl123": "text",
+        "lbl1234": "text"
+    },
+    "id": "segAccountListKA",
+    "ide_onRowClick": "AS_Segment_309cb9d0e7a24a9ebfab66dca4c7d823",
+    "info": null,
+    "iphone": {
+        "@class": "com.kony.gen.viz.model.container.property.segment2.IPhoneSegment2Property",
+        "psp": {
+            "bounces": true,
+            "editStyle": "none",
+            "enableDictionary": true,
+            "indicator": "none",
+            "progressIndicatorColor": "white",
+            "searchCriteria": 1,
+            "showProgressIndicator": true
+        },
+        "render": true,
+        "viewConfig": {
+            "coverflowConfig": {}
+        },
+        "viewType": "tableview"
+    },
+    "isvisible": true,
+    "kuid": "41d9786b232d4e08b1f538317bc6af6f",
+    "layoutalignment": 3,
+    "margininpixel": false,
+    "name": "kony.ui.SegmentedUI2",
+    "needpageindicator": true,
+    "paddinginpixel": false,
+    "pageoffdotimage": "pageoffdot.png",
+    "pageondotimage": "pageondot.png",
+    "paginationconfig": {
+        "position": "bottom"
+    },
+    "parent": "flxAccountListDetailsKA",
+    "pf": "frmAccountList",
+    "retainselection": false,
+    "rowTemplateId": "ba49d747515e41b39499876ec08571a5",
+    "rowcounter": 3,
+    "rowfocusskin": "sb5b95e0c7064ca48b82ecef7bf1a5b3",
+    "rowskin": "s367d5da946849c393321bf8e35c6bf0",
+    "rowtemplate": "CopyflxAccountInfoKA",
+    "scrollingevents": false,
+    "seccounter": 0,
+    "sectionheaderskin": "s9a360a634084e5eb5ac883f47bb3c21",
+    "selectedRows": null,
+    "selectedState": false,
+    "selectedindex": null,
+    "selectedindices": null,
+    "selecteditems": null,
+    "selectedsectionindex": 0,
+    "selectionbehavior": "default",
+    "selectionbehaviorconfig": {},
+    "separatorcolor": "cec0af2f",
+    "separatorrequired": true,
+    "separatorthickness": 1,
+    "showscrollbars": false,
+    "spa": {
+        "@class": "com.kony.gen.viz.model.container.property.segment2.SPASegment2Property"
+    },
+    "spaan": {
+        "@class": "com.kony.gen.viz.model.container.property.segment2.SPAAndroidSegment2Property",
+        "render": true
+    },
+    "spabb": {
+        "@class": "com.kony.gen.viz.model.container.property.segment2.SPABBSegment2Property",
+        "render": false
+    },
+    "spaip": {
+        "@class": "com.kony.gen.viz.model.container.property.segment2.SPAIPhoneSegment2Property",
+        "render": true
+    },
+    "spawinphone8": {
+        "@class": "com.kony.gen.viz.model.container.property.segment2.SPAWinPhone8Segment2Property",
+        "render": true
+    },
+    "wType": "Segment",
+    "widgetalignment": 5,
+    "widgetdatamap": {
+        "FlexContainer08fc334f9b85041": "FlexContainer08fc334f9b85041",
+        "lblAccountLocationKA": "lblAccountLocationKA",
+        "lblAccountNameKA": "lblAccountNameKA",
+        "lblAccountStatusKA": "lblAccountStatusKA",
+        "lblFaxNumKA": "lblFaxNumKA",
+        "lblIndustryValKA": "lblIndustryValKA",
+        "lblLastActivityKA": "lblLastActivityKA",
+        "lblOwnerNameKA": "lblOwnerNameKA",
+        "lblPhoneNumKA": "lblPhoneNumKA",
+        "lblPrimeAddrsKA": "lblPrimeAddrsKA",
+        "lblStateKA": "lblStateKA",
+        "lblWebsiteNameKA": "lblWebsiteNameKA"
+    },
+    "winphone8": {
+        "@class": "com.kony.gen.viz.model.container.property.segment2.WinPhone8Segment2Property",
+        "psp": {
+            "enableCache": false
+        },
+        "render": true
+    },
+    "zindex": 1
+}

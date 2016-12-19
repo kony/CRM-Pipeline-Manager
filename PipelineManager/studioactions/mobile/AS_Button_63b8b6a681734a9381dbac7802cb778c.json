@@ -1,0 +1,17 @@
+{
+    "AS_Button_63b8b6a681734a9381dbac7802cb778c": {
+        "id": "AS_Button_63b8b6a681734a9381dbac7802cb778c",
+        "type": "ACTION_SEQUENCE",
+        "params": [{
+            "datatype": "collection",
+            "name": "eventobject"
+        }],
+        "language": "js",
+        "actions": [{
+            "id": "ADD_SNIPPET_ide_onClick_ef9af77e9159456dbb4508a9d8e897a6",
+            "type": "ADD_SNIPPET",
+            "codeSnippet": "  \tclient = kony.sdk.getCurrentInstance();\n  \tidentityInstance = client.getIdentityService(\"identitySalesForce\");\n  \tif((frmLogin.txtbxUserName.text != \"\" && frmLogin.txtbxUserName.text != undefined) && (frmLogin.txtbxPassword.text != \"\" && frmLogin.txtbxPassword.text != undefined))\n      {\n    iparams={\"userid\": frmLogin.txtbxUserName.text,\n                    \"password\": frmLogin.txtbxPassword.text+securityToken\n               \t\t};\n    kony.application.showLoadingScreen(\"loadingScreen\",\"Loading...\",constants.LOADING_SCREEN_POSITION_FULL_SCREEN, true,true,null);\n    identityInstance.login(iparams, function(response){\n  kony.application.dismissLoadingScreen();\n  frmDashboard.show();\n}, function(res) {\n\t kony.application.dismissLoadingScreen();  \n \tvar infoAlert = kony.ui.Alert({\n            message: JSON.stringify(res),\n            alertType: constants.ALERT_TYPE_INFO,\n            alertTitle: \"Kony\",\n            yesLabel: \"OK\",\n            noLabel: \"Cancel\",\n            alertHandler: null\n        }, {});\n});\n      }\n\t\telse\n          {\n            \tvar infoAlert = kony.ui.Alert({\n                                                message: \"Please enter required fields.\",\n                                                alertType: constants.ALERT_TYPE_INFO,\n                                                alertTitle: \"Kony\",\n                                                yesLabel: \"OK\",\n                                                noLabel: \"Cancel\",\n                                                alertHandler: null\n                                            }, {});       \n          }",
+            "callbackType": null
+        }]
+    }
+}

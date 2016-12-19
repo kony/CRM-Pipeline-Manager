@@ -1,0 +1,24 @@
+{
+    "AS_FlexContainer_cb70da2114fd4d6b939df9094f4bc2e9": {
+        "id": "AS_FlexContainer_cb70da2114fd4d6b939df9094f4bc2e9",
+        "type": "ACTION_SEQUENCE",
+        "params": [{
+            "datatype": "collection",
+            "name": "eventobject"
+        }],
+        "contextObj": {
+            "name": "frmOpportunityList",
+            "type": "forms",
+            "platform": "",
+            "KUID": "193dda2a77244e1b8c67346b17a1776f"
+        },
+        "language": "js",
+        "actions": [{
+            "id": "ADD_SNIPPET__c7bc25d108ef4c789ede21e94db1a0c2",
+            "type": "ADD_SNIPPET",
+            "codeSnippet": "sliderMenu();\nfrmOpportunityListKA.show();",
+            "parentId": null,
+            "callbackType": null
+        }]
+    }
+}

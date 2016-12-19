@@ -1,0 +1,23 @@
+{
+    "AS_FlexContainer_58dc00666b6940868c854bd4087c2ece": {
+        "id": "AS_FlexContainer_58dc00666b6940868c854bd4087c2ece",
+        "type": "ACTION_SEQUENCE",
+        "params": [{
+            "datatype": "collection",
+            "name": "eventobject"
+        }],
+        "contextObj": {
+            "name": "hamburgerMenu",
+            "type": "masters",
+            "KUID": "a64bf3be88fb4625ab27ec58eca72dc6"
+        },
+        "sourceObj": {
+            "itemKUID": "a64bf3be88fb4625ab27ec58eca72dc6",
+            "widgetKUID": "d5ef017f114c440eaf48e05459df652c",
+            "evt": "onClick",
+            "platform": null
+        },
+        "language": "js",
+        "actions": []
+    }
+}

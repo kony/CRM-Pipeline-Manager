@@ -1,0 +1,31 @@
+{
+    "AS_FlexContainer_3758849122eb482699b441c65759c551": {
+        "id": "AS_FlexContainer_3758849122eb482699b441c65759c551",
+        "type": "ACTION_SEQUENCE",
+        "params": [{
+            "datatype": "collection",
+            "name": "eventobject"
+        }],
+        "sourceObj": {
+            "itemKUID": "a64bf3be88fb4625ab27ec58eca72dc6",
+            "widgetKUID": "05a6f9ac183b412c8943729011e7afcf",
+            "evt": "onClick",
+            "platform": null
+        },
+        "language": "js",
+        "actions": [{
+            "id": "NAMED_ACTION___ide_onClick_f7c7fe72315a47c3919856e312ffea6f",
+            "type": "NAMED_ACTION",
+            "sequenceKUID": "AS_FlexContainer_2a5a83d9c0514b3193684b83e4724198",
+            "display": "AS_FlexContainer_2a5a83d9c0514b3193684b83e4724198",
+            "inputparams": [{
+                "datatype": "collection",
+                "name": "eventobject",
+                "value": "eventobject"
+            }],
+            "callbackType": null,
+            "disabled": false,
+            "isMasterInstanceAction": true
+        }]
+    }
+}

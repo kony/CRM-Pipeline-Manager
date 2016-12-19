@@ -1,0 +1,23 @@
+{
+    "AS_FlexContainer_929517f8de9644e9a142889be54a24f5": {
+        "id": "AS_FlexContainer_929517f8de9644e9a142889be54a24f5",
+        "type": "ACTION_SEQUENCE",
+        "params": [{
+            "datatype": "collection",
+            "name": "eventobject"
+        }],
+        "contextObj": {
+            "name": "MasterHamburger",
+            "type": "masters",
+            "KUID": "9eabf76e652f403eba8d0172900a96ef"
+        },
+        "language": "js",
+        "actions": [{
+            "id": "ADD_SNIPPET__bca26f49327b414d83c044d0a21df1f3",
+            "type": "ADD_SNIPPET",
+            "codeSnippet": "  var frmId = kony.application.getCurrentForm();\n        alert(\"frmId\");\n        frmId[\"flxHamburger\"].animate(\n        kony.ui.createAnimation({      \n          100:{\n      \t\t\"left\":  \"-100%\",\n      \t\t\"stepConfig\": {\"timingFunction\": kony.anim.EASIN_IN_OUT}} \n      }),{\"fillMode\": kony.anim.FILL_MODE_FORWARDS,\"duration\": 0.20,\"delay\":0.20},{\n\t\t\t\t\"animationEnd\": function() {\n                  //frmId.flxCloseMenu.isVisible = false;\n\t\t\t\t}\n\t\t\t});\n    ",
+            "parentId": null,
+            "callbackType": null
+        }]
+    }
+}

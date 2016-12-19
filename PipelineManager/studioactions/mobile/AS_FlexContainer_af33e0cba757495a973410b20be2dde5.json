@@ -1,0 +1,24 @@
+{
+    "AS_FlexContainer_af33e0cba757495a973410b20be2dde5": {
+        "id": "AS_FlexContainer_af33e0cba757495a973410b20be2dde5",
+        "type": "ACTION_SEQUENCE",
+        "params": [{
+            "datatype": "collection",
+            "name": "eventobject"
+        }],
+        "contextObj": {
+            "name": "frmAccountDetails",
+            "type": "forms",
+            "platform": "",
+            "KUID": "379bcd4576bf4cedbc5f3ed4362b121b"
+        },
+        "sourceObj": {
+            "itemKUID": "a64bf3be88fb4625ab27ec58eca72dc6",
+            "widgetKUID": "d5ef017f114c440eaf48e05459df652c",
+            "evt": "onClick",
+            "platform": null
+        },
+        "language": "js",
+        "actions": []
+    }
+}

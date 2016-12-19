@@ -1,0 +1,62 @@
+{
+    "AS_FlexContainer_9597db047e504c4aa8942440a8ef5e81": {
+        "id": "AS_FlexContainer_9597db047e504c4aa8942440a8ef5e81",
+        "type": "ACTION_SEQUENCE",
+        "params": [{
+            "datatype": "collection",
+            "name": "eventobject"
+        }],
+        "language": "js",
+        "actions": [{
+            "id": "INVOKE_FUNCTION__ide_onClick_5eb883cc1e4a47a88518870b5c4e9fc9",
+            "type": "INVOKE_FUNCTION",
+            "sequenceKUID": "sliderMenu",
+            "display": "sliderMenu",
+            "inputparams": [],
+            "callbackType": null,
+            "disabled": null
+        }, {
+            "id": "IF_CONDITION_ide_onClick_ee9298da99b54fe7adcf006c49bf072f",
+            "type": "IF_CONDITION",
+            "conditions": [{
+                "leftValueType": "widgetprop",
+                "leftValue": "frmLogin.flxMainLogin.flxMain.rememberME.selectedKeys",
+                "operator": "!==",
+                "rightValueType": "value",
+                "rightValue": "null",
+                "leftItemKUID": "1514c68541154d169f85caee3ea8d122",
+                "leftWidgetKUID": "e8e83e4c7d684c07ab5fc4b09b983882"
+            }],
+            "callbackType": null,
+            "criteria": "any",
+            "disabled": false
+        }, {
+            "id": "ADD_SNIPPET_ide_onClick_4b3fb9d5ad114f548ca648af611a4b3f",
+            "type": "ADD_SNIPPET",
+            "codeSnippet": "frmLoginVA.show();",
+            "parentId": "IF_CONDITION_ide_onClick_ee9298da99b54fe7adcf006c49bf072f",
+            "callbackType": null,
+            "disabled": false
+        }, {
+            "id": "ELSE_CONDITION_ide_onClick_e6a09c1dea444020a8d8636209878fc6",
+            "type": "ELSE_CONDITION",
+            "conditions": [{
+                "leftValueType": "widgetprop",
+                "leftValue": "",
+                "operator": "===",
+                "rightValueType": "widgetprop",
+                "rightValue": ""
+            }],
+            "callbackType": null,
+            "criteria": "all",
+            "disabled": false
+        }, {
+            "id": "ADD_SNIPPET_ide_onClick_e63bb64462e341ccaf01dc2fd0866150",
+            "type": "ADD_SNIPPET",
+            "codeSnippet": "frmLoginVA.tbxCRMUserIDKA.text = \"\";\nfrmLoginVA.tbxCRMPasswordKA.text = \"\";\nfrmLoginVA.show();",
+            "parentId": "ELSE_CONDITION_ide_onClick_e6a09c1dea444020a8d8636209878fc6",
+            "callbackType": null,
+            "disabled": false
+        }]
+    }
+}

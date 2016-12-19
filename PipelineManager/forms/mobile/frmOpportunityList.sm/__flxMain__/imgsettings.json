@@ -1,0 +1,48 @@
+{
+    "__parentReadjusting__": false,
+    "_padding_": [
+        0,
+        0,
+        0,
+        0
+    ],
+    "_skin_": "sf58689b37354bf0a8f5dff0ec5f8760",
+    "_srcKuid_": "821248178aa743dc94b3460e5733c7b0",
+    "canUpdateUI": true,
+    "channel": "mobile",
+    "context": {},
+    "dataDiffs": {
+        "centerY": {
+            "type": "string",
+            "value": "50%"
+        },
+        "height": {
+            "type": "string",
+            "value": "35dp"
+        },
+        "id": "imgsettings",
+        "imageScaleMode": 1,
+        "imageWhenFailed": "menu_settings.png",
+        "imageWhileDownloading": "menu_settings.png",
+        "left": {
+            "type": "string",
+            "value": "5%"
+        },
+        "src": "menu_settings.png",
+        "width": {
+            "type": "string",
+            "value": "35dp"
+        },
+        "zIndex": 1
+    },
+    "id": "imgsettings",
+    "instanceOf": "821248178aa743dc94b3460e5733c7b0",
+    "isvisible": true,
+    "kuid": "m5ada1958c7143039aa16bd2c7affe26",
+    "masterInstance": true,
+    "name": "kony.ui.Image2",
+    "parent": "flxFooterMenu",
+    "pf": "frmOpportunityList",
+    "topLevelInstanceKUID": "m52ad4c4e50c480fb2949562bc0a6f8d",
+    "wType": "Image"
+}

@@ -1,0 +1,17 @@
+{
+    "AS_FlexContainer_fc44aec5769848afb52b8042298699c3": {
+        "id": "AS_FlexContainer_fc44aec5769848afb52b8042298699c3",
+        "type": "ACTION_SEQUENCE",
+        "params": [{
+            "datatype": "collection",
+            "name": "eventobject"
+        }],
+        "language": "js",
+        "actions": [{
+            "id": "ADD_SNIPPET_ide_onClick_1bc0dab074ec4effa0e8f3f2842419cf",
+            "type": "ADD_SNIPPET",
+            "codeSnippet": "sliderMenu();\nfrmDashboardKA.show();",
+            "callbackType": null
+        }]
+    }
+}

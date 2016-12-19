@@ -1,0 +1,64 @@
+{
+    "@class": "com.kony.gen.viz.model.component.KVizImage2",
+    "DNDConfig": null,
+    "__parentReadjusting__": false,
+    "_base64_": null,
+    "_height_": {
+        "type": "string",
+        "value": "30dp"
+    },
+    "_left_": {
+        "type": "string",
+        "value": "5%"
+    },
+    "_margin_": [
+        0,
+        0,
+        0,
+        0
+    ],
+    "_padding_": [
+        0,
+        0,
+        0,
+        0
+    ],
+    "_skin_": "sf58689b37354bf0a8f5dff0ec5f8760",
+    "_src_": "sync_icon.png",
+    "_width_": {
+        "type": "string",
+        "value": "45dp"
+    },
+    "canUpdateUI": true,
+    "centery": {
+        "type": "string",
+        "value": "50%"
+    },
+    "childInstances": [
+        "m528e5eeb2874c69baf63ec7861d19c3",
+        "me84e46fc8e44fd1a0e6db5a52bfd9a4",
+        "m8d05df313a54974accbcc61fca338ff"
+    ],
+    "containerweight": 100,
+    "context": {
+        "channel": "mobile",
+        "formID": "MasterHamburger",
+        "platform": "android",
+        "templateType": "masters",
+        "topLevelBox": null
+    },
+    "id": "imgSync",
+    "imagescalemode": 1,
+    "imagewhenfailed": "sync_icon.png",
+    "imagewhiledownloading": "sync_icon.png",
+    "info": null,
+    "isvisible": true,
+    "kuid": "9459cbceb57942249481625961837f6f",
+    "name": "kony.ui.Image2",
+    "parent": "flxFooterMenu",
+    "pf": "MasterHamburger",
+    "srcType": 1,
+    "wType": "Image",
+    "widgetalignment": 5,
+    "zindex": 1
+}

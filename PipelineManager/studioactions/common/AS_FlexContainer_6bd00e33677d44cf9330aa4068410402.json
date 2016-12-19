@@ -1,0 +1,23 @@
+{
+    "AS_FlexContainer_6bd00e33677d44cf9330aa4068410402": {
+        "id": "AS_FlexContainer_6bd00e33677d44cf9330aa4068410402",
+        "type": "ACTION_SEQUENCE",
+        "params": [{
+            "datatype": "collection",
+            "name": "eventobject"
+        }],
+        "contextObj": {
+            "name": "MasterHamburger",
+            "type": "masters",
+            "KUID": "9eabf76e652f403eba8d0172900a96ef"
+        },
+        "language": "js",
+        "actions": [{
+            "id": "ADD_SNIPPET__f6d6a5085bf74db6b6cdb4bbca44980f",
+            "type": "ADD_SNIPPET",
+            "codeSnippet": "  var frmId = kony.application.getCurrentForm();\n        frmId[\"flxParent\"].animate(\n        kony.ui.createAnimation({      \n          100:{\n      \t\t\"left\":  \"0%\",\n      \t\t\"stepConfig\": {\"timingFunction\": kony.anim.EASIN_IN_OUT}} \n      }),{\"fillMode\": kony.anim.FILL_MODE_FORWARDS,\"duration\": 0.20,\"delay\":0.20},{\n\t\t\t\t\"animationEnd\": function() {\n                 \n\t\t\t\t}\n\t\t\t});\n frmDashboard.show();\n",
+            "parentId": null,
+            "callbackType": null
+        }]
+    }
+}

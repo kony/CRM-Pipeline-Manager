@@ -1,0 +1,31 @@
+{
+    "AS_FlexContainer_a718f41f37e249249607f113acfcb4e7": {
+        "id": "AS_FlexContainer_a718f41f37e249249607f113acfcb4e7",
+        "type": "ACTION_SEQUENCE",
+        "params": [{
+            "datatype": "collection",
+            "name": "eventobject"
+        }],
+        "contextObj": {
+            "name": "frmAccountDetails",
+            "type": "forms",
+            "platform": "",
+            "KUID": "379bcd4576bf4cedbc5f3ed4362b121b"
+        },
+        "language": "js",
+        "actions": [{
+            "id": "NAMED_ACTION____9db1b54963924087a559d0a8faeb2049",
+            "type": "NAMED_ACTION",
+            "sequenceKUID": "AS_FlexContainer_5735c8b986d346368ce0e9ae3c39e1f1",
+            "display": "navigatetoOpportunityList",
+            "inputparams": [{
+                "datatype": "collection",
+                "name": "eventobject"
+            }],
+            "parentId": null,
+            "callbackType": null,
+            "disabled": null,
+            "isMasterInstanceAction": null
+        }]
+    }
+}

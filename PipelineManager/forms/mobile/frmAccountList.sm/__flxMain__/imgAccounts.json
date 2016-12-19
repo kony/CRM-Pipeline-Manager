@@ -1,0 +1,48 @@
+{
+    "__parentReadjusting__": false,
+    "_padding_": [
+        0,
+        0,
+        0,
+        0
+    ],
+    "_skin_": "sf58689b37354bf0a8f5dff0ec5f8760",
+    "_srcKuid_": "c593704416b3446986b304de9a6a958b",
+    "canUpdateUI": true,
+    "channel": "mobile",
+    "context": {},
+    "dataDiffs": {
+        "centerY": {
+            "type": "string",
+            "value": "50%"
+        },
+        "height": {
+            "type": "string",
+            "value": "35dp"
+        },
+        "id": "imgAccounts",
+        "imageScaleMode": 1,
+        "imageWhenFailed": "accounts.png",
+        "imageWhileDownloading": "accounts.png",
+        "left": {
+            "type": "string",
+            "value": "4%"
+        },
+        "src": "accounts.png",
+        "width": {
+            "type": "string",
+            "value": "35dp"
+        },
+        "zIndex": 1
+    },
+    "id": "imgAccounts",
+    "instanceOf": "c593704416b3446986b304de9a6a958b",
+    "isvisible": true,
+    "kuid": "m92af9c6ccd54f2d9695975b3de1078a",
+    "masterInstance": true,
+    "name": "kony.ui.Image2",
+    "parent": "flxAccounts",
+    "pf": "frmAccountList",
+    "topLevelInstanceKUID": "m3d6611f02a1425aa308d617f6cf4c15",
+    "wType": "Image"
+}

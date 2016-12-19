@@ -1,0 +1,17 @@
+{
+    "AS_Button_95c8bbd9673c451c92f7c0321c2f8386": {
+        "id": "AS_Button_95c8bbd9673c451c92f7c0321c2f8386",
+        "type": "ACTION_SEQUENCE",
+        "params": [{
+            "datatype": "collection",
+            "name": "eventobject"
+        }],
+        "language": "js",
+        "actions": [{
+            "id": "ADD_SNIPPET_ide_onClick_6770af5e89a04b3f8fc54ee415e131af",
+            "type": "ADD_SNIPPET",
+            "codeSnippet": "  var frmId = kony.application.getCurrentForm();\n      if (frmId[\"flxParent\"].left == \"0%\")\n      {\n        frmId[\"flxParent\"].animate(\n        kony.ui.createAnimation({      \n          100:{\n      \t\t\"left\":  \"70%\",\n      \t\t\"stepConfig\": {\"timingFunction\": kony.anim.EASIN_IN_OUT}} \n      }),{\"fillMode\": kony.anim.FILL_MODE_FORWARDS,\"duration\": 0.20,\"delay\":0.20},{\n\t\t\t\t\"animationEnd\": function() {\n\t\t\t\t}\n\t\t\t});\n      }\n      else\n        {\n          frmId[\"flxParent\"].animate(\n            kony.ui.createAnimation({      \n              100:{\n                \"left\": \"0%\",\n                \"stepConfig\": {\"timingFunction\": kony.anim.EASIN_IN_OUT}} \n          }),{\"fillMode\": kony.anim.FILL_MODE_FORWARDS,\"duration\": 0.20,\"delay\":0.20},{});\n        }\n\t\t\n\t\t\n\t\t\n    ",
+            "callbackType": null
+        }]
+    }
+}

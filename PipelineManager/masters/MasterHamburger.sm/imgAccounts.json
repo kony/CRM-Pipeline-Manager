@@ -1,0 +1,64 @@
+{
+    "@class": "com.kony.gen.viz.model.component.KVizImage2",
+    "DNDConfig": null,
+    "__parentReadjusting__": false,
+    "_base64_": null,
+    "_height_": {
+        "type": "string",
+        "value": "30dp"
+    },
+    "_left_": {
+        "type": "string",
+        "value": "5%"
+    },
+    "_margin_": [
+        0,
+        0,
+        0,
+        0
+    ],
+    "_padding_": [
+        0,
+        0,
+        0,
+        0
+    ],
+    "_skin_": "sf58689b37354bf0a8f5dff0ec5f8760",
+    "_src_": "accounts.png",
+    "_width_": {
+        "type": "string",
+        "value": "30dp"
+    },
+    "canUpdateUI": true,
+    "centery": {
+        "type": "string",
+        "value": "50%"
+    },
+    "childInstances": [
+        "m92af9c6ccd54f2d9695975b3de1078a",
+        "m85ded17ac7142a58b0bbc37fcad2678",
+        "me237318998f4804bc00c123b19cc30c"
+    ],
+    "containerweight": 100,
+    "context": {
+        "channel": "mobile",
+        "formID": "MasterHamburger",
+        "platform": "android",
+        "templateType": "masters",
+        "topLevelBox": null
+    },
+    "id": "imgAccounts",
+    "imagescalemode": 1,
+    "imagewhenfailed": "accounts.png",
+    "imagewhiledownloading": "accounts.png",
+    "info": null,
+    "isvisible": true,
+    "kuid": "c593704416b3446986b304de9a6a958b",
+    "name": "kony.ui.Image2",
+    "parent": "flxAccounts",
+    "pf": "MasterHamburger",
+    "srcType": 1,
+    "wType": "Image",
+    "widgetalignment": 5,
+    "zindex": 1
+}

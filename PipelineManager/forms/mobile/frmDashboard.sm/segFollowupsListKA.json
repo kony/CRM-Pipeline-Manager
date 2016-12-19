@@ -1,0 +1,198 @@
+{
+    "DNDConfig": null,
+    "__parentReadjusting__": false,
+    "_bottom_": {
+        "type": "string",
+        "value": "0dp"
+    },
+    "_data_": [
+        {
+            "imgStatusKA": {
+                "@class": "com.viz.ide.model.segment.ImageSegmentData",
+                "src": "followactive.png"
+            },
+            "lblAccountNameKA": {
+                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                "text": "Texas Estimates"
+            },
+            "lblCatDescKA": {
+                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                "text": "Follow Up"
+            },
+            "lblDescriptionKA": {
+                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                "text": "Talk to estimates team"
+            }
+        },
+        {
+            "imgStatusKA": {
+                "@class": "com.viz.ide.model.segment.ImageSegmentData",
+                "src": "followinactive.png"
+            },
+            "lblAccountNameKA": {
+                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                "text": "American Express"
+            },
+            "lblCatDescKA": {
+                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                "text": "Follow Up"
+            },
+            "lblDescriptionKA": {
+                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                "text": "Task for Brett about estimates"
+            }
+        }
+    ],
+    "_enabled_": false,
+    "_indicator_": "none",
+    "_left_": {
+        "type": "string",
+        "value": "0dp"
+    },
+    "_margin_": [
+        0,
+        0,
+        0,
+        0
+    ],
+    "_orientation_": 2,
+    "_padding_": [
+        0,
+        0,
+        0,
+        0
+    ],
+    "_right_": {
+        "type": "string",
+        "value": "0dp"
+    },
+    "_skin_": "seg2Normal",
+    "_top_": {
+        "type": "string",
+        "value": "46dp"
+    },
+    "_width_": {
+        "type": "string",
+        "value": "100%"
+    },
+    "android": {
+        "@class": "com.kony.gen.viz.model.container.property.segment2.AndroidSegment2Property",
+        "psp": {
+            "dockSectionHeaders": false
+        },
+        "render": true,
+        "viewConfig": {
+            "coverflowConfig": {
+                "isCircular": true,
+                "projectionAngle": 60
+            }
+        },
+        "viewType": "tableview"
+    },
+    "canUpdateUI": true,
+    "containerheightreference": 1,
+    "containerweight": 100,
+    "context": {
+        "channel": "mobile",
+        "formID": "AdvancedWidgetsSegements",
+        "templateType": "segments",
+        "topLevelBox": false
+    },
+    "counter": "01",
+    "focusedindex": null,
+    "focuseditem": null,
+    "generatedtemplate": "2f035b1007934507a58207f01d3ac20b",
+    "groupcells": true,
+    "hasSections": false,
+    "hiddencolumns": {},
+    "id": "segFollowupsListKA",
+    "info": null,
+    "iphone": {
+        "@class": "com.kony.gen.viz.model.container.property.segment2.IPhoneSegment2Property",
+        "psp": {
+            "bounces": false,
+            "editStyle": "none",
+            "enableDictionary": true,
+            "indicator": "none",
+            "progressIndicatorColor": "white",
+            "searchCriteria": 1,
+            "showProgressIndicator": true
+        },
+        "render": true,
+        "viewConfig": {
+            "coverflowConfig": {}
+        },
+        "viewType": "tableview"
+    },
+    "isvisible": true,
+    "kuid": "8cac62d2bfe445e988df0804cfd9bf1a",
+    "layoutalignment": 3,
+    "margininpixel": false,
+    "name": "kony.ui.SegmentedUI2",
+    "needpageindicator": true,
+    "paddinginpixel": false,
+    "pageoffdotimage": "pageoffdot.png",
+    "pageondotimage": "pageondot.png",
+    "paginationconfig": {
+        "position": "bottom"
+    },
+    "parent": "flxFollowupsListKA",
+    "pf": "frmDashboard",
+    "retainselection": false,
+    "rowTemplateId": "2f035b1007934507a58207f01d3ac20b",
+    "rowcounter": 1,
+    "rowfocusskin": "s6ba086c14eb4065ac9ebff757ccebef",
+    "rowskin": "s863a8ea0a624f76bf357e090f31d077",
+    "rowtemplate": "CopyflxUserListKA068e25fb9e7cc46",
+    "scrollingevents": false,
+    "seccounter": 0,
+    "sectionheaderskin": "s961214b567149239e0e1e1367b1d998",
+    "selectedRows": null,
+    "selectedState": false,
+    "selectedindex": null,
+    "selectedindices": null,
+    "selecteditems": null,
+    "selectedsectionindex": 0,
+    "selectionbehavior": "default",
+    "selectionbehaviorconfig": {},
+    "separatorcolor": "cec0af2f",
+    "separatorrequired": true,
+    "separatorthickness": 1,
+    "showscrollbars": false,
+    "spa": {
+        "@class": "com.kony.gen.viz.model.container.property.segment2.SPASegment2Property"
+    },
+    "spaan": {
+        "@class": "com.kony.gen.viz.model.container.property.segment2.SPAAndroidSegment2Property",
+        "render": true
+    },
+    "spabb": {
+        "@class": "com.kony.gen.viz.model.container.property.segment2.SPABBSegment2Property",
+        "render": false
+    },
+    "spaip": {
+        "@class": "com.kony.gen.viz.model.container.property.segment2.SPAIPhoneSegment2Property",
+        "render": true
+    },
+    "spawinphone8": {
+        "@class": "com.kony.gen.viz.model.container.property.segment2.SPAWinPhone8Segment2Property",
+        "render": true
+    },
+    "viewtype": "tableview",
+    "wType": "Segment",
+    "widgetalignment": 5,
+    "widgetdatamap": {
+        "imgStatusKA": "imgStatusKA",
+        "lblAccountNameKA": "lblAccountNameKA",
+        "lblCatDescKA": "lblCatDescKA",
+        "lblDescriptionKA": "lblDescriptionKA"
+    },
+    "winphone8": {
+        "@class": "com.kony.gen.viz.model.container.property.segment2.WinPhone8Segment2Property",
+        "psp": {
+            "enableCache": false
+        },
+        "render": true
+    },
+    "zindex": 1
+}

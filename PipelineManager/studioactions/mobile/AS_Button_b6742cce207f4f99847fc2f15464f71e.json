@@ -1,0 +1,24 @@
+{
+    "AS_Button_b6742cce207f4f99847fc2f15464f71e": {
+        "id": "AS_Button_b6742cce207f4f99847fc2f15464f71e",
+        "type": "ACTION_SEQUENCE",
+        "params": [{
+            "datatype": "collection",
+            "name": "eventobject"
+        }, {
+            "datatype": "string",
+            "name": "x"
+        }, {
+            "datatype": "string",
+            "name": "y"
+        }],
+        "contextObj": {
+            "name": "frmAccountList",
+            "type": "forms",
+            "platform": "",
+            "KUID": "9e1347a67cdb4e9c8501d2589037ac87"
+        },
+        "language": "js",
+        "actions": []
+    }
+}

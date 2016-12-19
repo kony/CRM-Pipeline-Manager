@@ -1,0 +1,24 @@
+{
+    "AS_Button_ec0767b7a4ad4b60a92e4e2e02642ad2": {
+        "id": "AS_Button_ec0767b7a4ad4b60a92e4e2e02642ad2",
+        "type": "ACTION_SEQUENCE",
+        "params": [{
+            "datatype": "collection",
+            "name": "eventobject"
+        }],
+        "contextObj": {
+            "name": "frmOpportunityList",
+            "type": "forms",
+            "platform": "",
+            "KUID": "193dda2a77244e1b8c67346b17a1776f"
+        },
+        "language": "js",
+        "actions": [{
+            "id": "ADD_SNIPPET__a0125f05033e431b8d4678149e3085fb",
+            "type": "ADD_SNIPPET",
+            "codeSnippet": "  var frmId = kony.application.getCurrentForm();\n      if (frmId[\"flxParent\"].left == \"0%\")\n      {\n        frmId[\"flxParent\"].animate(\n        kony.ui.createAnimation({      \n          100:{\n      \t\t\"left\":  \"70%\",\n      \t\t\"stepConfig\": {\"timingFunction\": kony.anim.EASIN_IN_OUT}} \n      }),{\"fillMode\": kony.anim.FILL_MODE_FORWARDS,\"duration\": 0.20,\"delay\":0.20},{\n\t\t\t\t\"animationEnd\": function() {\n                  //frmId.flxCloseMenu.isVisible = false;\n\t\t\t\t}\n\t\t\t});\n      }\n      else\n        {\n          //frmId.flxCloseMenu.isVisible = true;\n          frmId[\"flxParent\"].animate(\n            kony.ui.createAnimation({      \n              100:{\n                \"left\": \"0%\",\n                \"stepConfig\": {\"timingFunction\": kony.anim.EASIN_IN_OUT}} \n          }),{\"fillMode\": kony.anim.FILL_MODE_FORWARDS,\"duration\": 0.20,\"delay\":0.20},{});\n        }\n\t\t\n\t\t\n\t\t\n    ",
+            "parentId": null,
+            "callbackType": null
+        }]
+    }
+}

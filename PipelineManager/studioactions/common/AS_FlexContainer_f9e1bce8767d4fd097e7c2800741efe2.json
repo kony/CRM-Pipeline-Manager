@@ -1,0 +1,37 @@
+{
+    "AS_FlexContainer_f9e1bce8767d4fd097e7c2800741efe2": {
+        "id": "AS_FlexContainer_f9e1bce8767d4fd097e7c2800741efe2",
+        "type": "ACTION_SEQUENCE",
+        "params": [{
+            "datatype": "collection",
+            "name": "eventobject"
+        }],
+        "contextObj": {
+            "name": "hamburgerMenu",
+            "type": "masters",
+            "KUID": "a64bf3be88fb4625ab27ec58eca72dc6"
+        },
+        "sourceObj": {
+            "itemKUID": "a64bf3be88fb4625ab27ec58eca72dc6",
+            "widgetKUID": "f2c4f9743bdf415f9c1aa7f9e22d4035",
+            "evt": "onClick",
+            "platform": null
+        },
+        "language": "js",
+        "actions": [{
+            "id": "NAMED_ACTION____3abbffe368aa4fac83fc3d002d49b7fb",
+            "type": "NAMED_ACTION",
+            "sequenceKUID": "AS_FlexContainer_fba5ac41fd1445919eea5d31775ffe73",
+            "display": "AS_FlexContainer_fba5ac41fd1445919eea5d31775ffe73",
+            "inputparams": [{
+                "datatype": "collection",
+                "name": "eventobject",
+                "value": "eventobject"
+            }],
+            "parentId": null,
+            "callbackType": null,
+            "disabled": false,
+            "isMasterInstanceAction": true
+        }]
+    }
+}

@@ -1,0 +1,17 @@
+{
+    "AS_FlexContainer_c62407c441204240994ed9883d822af5": {
+        "id": "AS_FlexContainer_c62407c441204240994ed9883d822af5",
+        "type": "ACTION_SEQUENCE",
+        "params": [{
+            "datatype": "collection",
+            "name": "eventobject"
+        }],
+        "contextObj": {
+            "name": "MasterHamburger",
+            "type": "masters",
+            "KUID": "9eabf76e652f403eba8d0172900a96ef"
+        },
+        "language": "js",
+        "actions": []
+    }
+}

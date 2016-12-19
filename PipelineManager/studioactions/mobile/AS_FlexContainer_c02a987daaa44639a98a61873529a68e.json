@@ -1,0 +1,38 @@
+{
+    "AS_FlexContainer_c02a987daaa44639a98a61873529a68e": {
+        "id": "AS_FlexContainer_c02a987daaa44639a98a61873529a68e",
+        "type": "ACTION_SEQUENCE",
+        "params": [{
+            "datatype": "collection",
+            "name": "eventobject"
+        }],
+        "contextObj": {
+            "name": "frmAccountDetails",
+            "type": "forms",
+            "platform": "",
+            "KUID": "379bcd4576bf4cedbc5f3ed4362b121b"
+        },
+        "sourceObj": {
+            "itemKUID": "a64bf3be88fb4625ab27ec58eca72dc6",
+            "widgetKUID": "f2c4f9743bdf415f9c1aa7f9e22d4035",
+            "evt": "onClick",
+            "platform": null
+        },
+        "language": "js",
+        "actions": [{
+            "id": "NAMED_ACTION____4cdb975354914b0c80756ce6b1a38fef",
+            "type": "NAMED_ACTION",
+            "sequenceKUID": "AS_FlexContainer_fba5ac41fd1445919eea5d31775ffe73",
+            "display": "AS_FlexContainer_fba5ac41fd1445919eea5d31775ffe73",
+            "inputparams": [{
+                "datatype": "collection",
+                "name": "eventobject",
+                "value": "eventobject"
+            }],
+            "parentId": null,
+            "callbackType": null,
+            "disabled": false,
+            "isMasterInstanceAction": true
+        }]
+    }
+}

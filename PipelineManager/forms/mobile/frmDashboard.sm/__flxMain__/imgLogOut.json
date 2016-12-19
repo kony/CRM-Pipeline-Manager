@@ -1,0 +1,48 @@
+{
+    "__parentReadjusting__": false,
+    "_padding_": [
+        0,
+        0,
+        0,
+        0
+    ],
+    "_skin_": "sf58689b37354bf0a8f5dff0ec5f8760",
+    "_srcKuid_": "1f671a82c3a74d75966afe9a81336f94",
+    "canUpdateUI": true,
+    "channel": "mobile",
+    "context": {},
+    "dataDiffs": {
+        "centerY": {
+            "type": "string",
+            "value": "50%"
+        },
+        "height": {
+            "type": "string",
+            "value": "30dp"
+        },
+        "id": "imgLogOut",
+        "imageScaleMode": 1,
+        "imageWhenFailed": "menu_logout.png",
+        "imageWhileDownloading": "menu_logout.png",
+        "left": {
+            "type": "string",
+            "value": "4%"
+        },
+        "src": "menu_logout.png",
+        "width": {
+            "type": "string",
+            "value": "45dp"
+        },
+        "zIndex": 1
+    },
+    "id": "imgLogOut",
+    "instanceOf": "1f671a82c3a74d75966afe9a81336f94",
+    "isvisible": true,
+    "kuid": "m66bf7da7de442a1b3f15939fdca65b9",
+    "masterInstance": true,
+    "name": "kony.ui.Image2",
+    "parent": "flxLogOut",
+    "pf": "frmDashboard",
+    "topLevelInstanceKUID": "mef5666c381649e3b8f5b600526ed760",
+    "wType": "Image"
+}

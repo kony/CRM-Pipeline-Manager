@@ -1,0 +1,17 @@
+{
+    "AS_FlexContainer_26c422f17a364653a7c30a5af1c500f7": {
+        "id": "AS_FlexContainer_26c422f17a364653a7c30a5af1c500f7",
+        "type": "ACTION_SEQUENCE",
+        "params": [{
+            "datatype": "collection",
+            "name": "eventobject"
+        }],
+        "language": "js",
+        "actions": [{
+            "id": "ADD_SNIPPET_ide_onClick_ef3d991ca10446b1be553e820f225a71",
+            "type": "ADD_SNIPPET",
+            "codeSnippet": "kony.print(\"myString\");",
+            "callbackType": null
+        }]
+    }
+}

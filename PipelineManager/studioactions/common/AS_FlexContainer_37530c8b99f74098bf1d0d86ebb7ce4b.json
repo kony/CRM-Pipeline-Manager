@@ -1,0 +1,23 @@
+{
+    "AS_FlexContainer_37530c8b99f74098bf1d0d86ebb7ce4b": {
+        "id": "AS_FlexContainer_37530c8b99f74098bf1d0d86ebb7ce4b",
+        "type": "ACTION_SEQUENCE",
+        "params": [{
+            "datatype": "collection",
+            "name": "eventobject"
+        }],
+        "contextObj": {
+            "name": "hamburgerMenu",
+            "type": "masters",
+            "KUID": "a64bf3be88fb4625ab27ec58eca72dc6"
+        },
+        "language": "js",
+        "actions": [{
+            "id": "ADD_SNIPPET__4a66c56a37b94c78980a32a2b432d036",
+            "type": "ADD_SNIPPET",
+            "codeSnippet": "sliderMenu();\nfrmLoginVA.show();",
+            "parentId": null,
+            "callbackType": null
+        }]
+    }
+}

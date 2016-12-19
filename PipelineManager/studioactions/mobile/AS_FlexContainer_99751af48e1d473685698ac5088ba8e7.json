@@ -1,0 +1,17 @@
+{
+    "AS_FlexContainer_99751af48e1d473685698ac5088ba8e7": {
+        "id": "AS_FlexContainer_99751af48e1d473685698ac5088ba8e7",
+        "type": "ACTION_SEQUENCE",
+        "params": [{
+            "datatype": "collection",
+            "name": "eventobject"
+        }],
+        "language": "js",
+        "actions": [{
+            "id": "ADD_SNIPPET_ide_onClick_41edafc55c49450ea1dd8313b4d649d7",
+            "type": "ADD_SNIPPET",
+            "codeSnippet": "sliderMenu();\nfrmAccountListKA.show();",
+            "callbackType": null
+        }]
+    }
+}

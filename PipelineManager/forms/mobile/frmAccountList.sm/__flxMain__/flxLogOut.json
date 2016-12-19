@@ -1,0 +1,58 @@
+{
+    "__parentReadjusting__": false,
+    "_padding_": [
+        0,
+        0,
+        0,
+        0
+    ],
+    "_skin_": "s3f576aa3d82438ba845da1220416ac1",
+    "_srcKuid_": "ef6061007e134322bc2cdc9c46104ed1",
+    "canUpdateUI": true,
+    "channel": "mobile",
+    "children": [
+        "imgLogOut"
+    ],
+    "context": {},
+    "dataDiffs": {
+        "centerY": {
+            "type": "string",
+            "value": "50%"
+        },
+        "clipBounds": true,
+        "enableScrolling": true,
+        "height": {
+            "type": "string",
+            "value": "35dp"
+        },
+        "id": "flxLogOut",
+        "layoutType": 2,
+        "left": {
+            "type": "string",
+            "value": "4%"
+        },
+        "snapGridSize": 10,
+        "snapToGrid": true,
+        "top": {
+            "type": "string",
+            "value": "523dp"
+        },
+        "width": {
+            "type": "string",
+            "value": "50dp"
+        },
+        "zIndex": 1
+    },
+    "id": "flxLogOut",
+    "ide_onClick": "AS_FlexContainer_aa9da015dd0240789b4915d49bab4697",
+    "instanceOf": "ef6061007e134322bc2cdc9c46104ed1",
+    "isvisible": true,
+    "kuid": "md8d3fa7847f41be9d98b8fa6c1eff95",
+    "layouttype": 2,
+    "masterInstance": true,
+    "name": "kony.ui.FlexContainer",
+    "parent": "flxFooterMenu",
+    "pf": "frmAccountList",
+    "topLevelInstanceKUID": "m3d6611f02a1425aa308d617f6cf4c15",
+    "wType": "FlexContainer"
+}

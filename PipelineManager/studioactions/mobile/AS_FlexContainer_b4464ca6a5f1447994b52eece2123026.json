@@ -1,0 +1,27 @@
+{
+    "AS_FlexContainer_b4464ca6a5f1447994b52eece2123026": {
+        "id": "AS_FlexContainer_b4464ca6a5f1447994b52eece2123026",
+        "type": "ACTION_SEQUENCE",
+        "params": [{
+            "datatype": "collection",
+            "name": "eventobject"
+        }],
+        "contextObj": {
+            "name": "frmOpportunityList",
+            "type": "forms",
+            "platform": "",
+            "KUID": "193dda2a77244e1b8c67346b17a1776f"
+        },
+        "language": "js",
+        "actions": [{
+            "id": "NAMED_ACTION____2129434950804b1d8fc4476a116914f6",
+            "type": "NAMED_ACTION",
+            "sequenceKUID": "AS_FlexContainer_f00c93b7cec64344b7b6858e5e8b69e5",
+            "display": "logOutEvent",
+            "parentId": null,
+            "callbackType": null,
+            "disabled": null,
+            "isMasterInstanceAction": null
+        }]
+    }
+}

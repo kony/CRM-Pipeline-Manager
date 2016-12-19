@@ -1,0 +1,570 @@
+{
+    "AS_Form_975e7f8a8a824af4854056c1e96680cd": {
+        "id": "AS_Form_975e7f8a8a824af4854056c1e96680cd",
+        "type": "ACTION_SEQUENCE",
+        "params": [{
+            "datatype": "collection",
+            "name": "eventobject"
+        }],
+        "contextObj": {
+            "name": "frmDashboard",
+            "type": "forms",
+            "platform": "",
+            "KUID": "7fa478994d0243ebafe1e599aee9b6bc"
+        },
+        "language": "js",
+        "actions": [{
+            "id": "ADD_SNIPPET__589d478c704142b3b886ce7d93f88921",
+            "type": "ADD_SNIPPET",
+            "codeSnippet": "kony.application.showLoadingScreen(\"loadingScreen\",\"Loading...\",constants.LOADING_SCREEN_POSITION_FULL_SCREEN, true,true,null);",
+            "parentId": null,
+            "callbackType": null
+        }, {
+            "id": "INVOKE_ASYNC_SERVICE__12c692f5b317461ea8e8f257999b8781",
+            "type": "INVOKE_ASYNC_SERVICE",
+            "inputparams": null,
+            "httpheaders": [{
+                "name": "",
+                "value": ""
+            }],
+            "httpconfigs": null,
+            "isasynchronous": true,
+            "mappings": {
+                "ME_Mapping_5d5c84339eac47fb91e02504b2b278ae": {
+                    "channel": "mobile",
+                    "id": "ME_Mapping_5d5c84339eac47fb91e02504b2b278ae",
+                    "type": "MAPPING",
+                    "callbackType": null,
+                    "source": {
+                        "type": "Variables",
+                        "propertyName": "accountsInputParam",
+                        "dataType": "string",
+                        "forkedPlatform": "all"
+                    },
+                    "target": {
+                        "type": "Services",
+                        "propertyName": "queryString",
+                        "dataType": "string",
+                        "forkedPlatform": "all",
+                        "serviceconfig": {
+                            "servicename": "integrationSalesForce",
+                            "type": "integration",
+                            "operationname": "queryAllAccount"
+                        }
+                    }
+                }
+            },
+            "mappingsOrder": ["ME_Mapping_5d5c84339eac47fb91e02504b2b278ae"],
+            "serviceconfig": {
+                "servicename": "integrationSalesForce",
+                "type": "integration",
+                "operationname": "queryAllAccount"
+            },
+            "parentId": null,
+            "callbackType": null,
+            "enableMappingEditor": true,
+            "disabled": false
+        }, {
+            "id": "INVOKE_ASYNC_SERVICE__7c7d95bba94042f89ec2ce724546df6a",
+            "type": "INVOKE_ASYNC_SERVICE",
+            "inputparams": null,
+            "httpheaders": [{
+                "name": "",
+                "value": ""
+            }],
+            "httpconfigs": null,
+            "isasynchronous": true,
+            "mappings": {
+                "ME_Mapping_67a12623734c432aab79c648a9caf2ae": {
+                    "channel": "mobile",
+                    "id": "ME_Mapping_67a12623734c432aab79c648a9caf2ae",
+                    "type": "MAPPING",
+                    "callbackType": null,
+                    "source": {
+                        "type": "Variables",
+                        "propertyName": "oppInputParam",
+                        "dataType": "string",
+                        "forkedPlatform": "all"
+                    },
+                    "target": {
+                        "type": "Services",
+                        "propertyName": "queryString",
+                        "dataType": "string",
+                        "forkedPlatform": "all",
+                        "serviceconfig": {
+                            "servicename": "integrationSalesForce",
+                            "type": "integration",
+                            "operationname": "queryAllOpportunity"
+                        }
+                    }
+                }
+            },
+            "mappingsOrder": ["ME_Mapping_67a12623734c432aab79c648a9caf2ae"],
+            "serviceconfig": {
+                "servicename": "integrationSalesForce",
+                "type": "integration",
+                "operationname": "queryAllOpportunity"
+            },
+            "parentId": null,
+            "callbackType": null,
+            "enableMappingEditor": true,
+            "disabled": false
+        }, {
+            "id": "ADD_SNIPPET__ed7b834e90304244b6be45732c56bc1f",
+            "type": "ADD_SNIPPET",
+            "codeSnippet": "kony.application.dismissLoadingScreen();",
+            "parentId": null,
+            "callbackType": null
+        }, {
+            "id": "ADD_MAPPING__affb4769a8d64482b138d390aa268b01",
+            "type": "ADD_MAPPING",
+            "mappings": {
+                "ME_Mapping_728ac046b42240d3905608ff866f495f": {
+                    "channel": "mobile",
+                    "id": "ME_Mapping_728ac046b42240d3905608ff866f495f",
+                    "type": "MAPPING",
+                    "callbackType": null,
+                    "source": {
+                        "type": "Services",
+                        "propertyName": "Opportunity",
+                        "dataType": "collection",
+                        "forkedPlatform": "all",
+                        "serviceconfig": {
+                            "servicename": "integrationSalesForce",
+                            "type": "integration",
+                            "operationname": "queryAllOpportunity"
+                        }
+                    },
+                    "target": {
+                        "type": "Forms",
+                        "propertyName": "masterdata",
+                        "widgetId": "segOppurtunitiesListKA",
+                        "widgetType": "Segment",
+                        "dataType": "collection",
+                        "itemId": "frmOpportunityList",
+                        "widgetKUID": "5124314ca4174f88a8521c126c57eedf",
+                        "itemKUID": "193dda2a77244e1b8c67346b17a1776f",
+                        "forkedPlatform": "all"
+                    }
+                }
+            },
+            "mappingsOrder": ["ME_Mapping_728ac046b42240d3905608ff866f495f"],
+            "parentId": "INVOKE_ASYNC_SERVICE__7c7d95bba94042f89ec2ce724546df6a",
+            "callbackType": "Callback",
+            "enableMappingEditor": true
+        }, {
+            "id": "ADD_MAPPING__a7da19d1afa54bc0981c6955fe74ef5e",
+            "type": "ADD_MAPPING",
+            "mappings": {
+                "ME_Mapping_81a12daf6c224b70b729577f1ed32144": {
+                    "channel": "mobile",
+                    "id": "ME_Mapping_81a12daf6c224b70b729577f1ed32144",
+                    "type": "MAPPING",
+                    "callbackType": null,
+                    "source": {
+                        "type": "Services",
+                        "propertyName": "Account",
+                        "dataType": "collection",
+                        "forkedPlatform": "all",
+                        "serviceconfig": {
+                            "servicename": "integrationSalesForce",
+                            "type": "integration",
+                            "operationname": "queryAllAccount"
+                        }
+                    },
+                    "target": {
+                        "type": "Forms",
+                        "propertyName": "masterdata",
+                        "widgetId": "segAccountListKA",
+                        "widgetType": "Segment",
+                        "dataType": "collection",
+                        "itemId": "frmAccountList",
+                        "widgetKUID": "41d9786b232d4e08b1f538317bc6af6f",
+                        "itemKUID": "9e1347a67cdb4e9c8501d2589037ac87",
+                        "forkedPlatform": "all"
+                    }
+                },
+                "ME_Mapping_05d2036e70b043888e945aaf9ef5aefd": {
+                    "channel": "mobile",
+                    "id": "ME_Mapping_05d2036e70b043888e945aaf9ef5aefd",
+                    "type": "MAPPING",
+                    "callbackType": null,
+                    "source": {
+                        "type": "Services",
+                        "propertyName": "Name",
+                        "dataType": "string",
+                        "collectionId": "Account",
+                        "forkedPlatform": "all",
+                        "serviceconfig": {
+                            "servicename": "integrationSalesForce",
+                            "type": "integration",
+                            "operationname": "queryAllAccount"
+                        }
+                    },
+                    "target": {
+                        "type": "Forms",
+                        "propertyName": "text",
+                        "widgetId": "lblAccountNameKA",
+                        "widgetType": "Label",
+                        "dataType": "string",
+                        "itemId": "frmAccountList",
+                        "parentMappingId": "ME_Mapping_81a12daf6c224b70b729577f1ed32144",
+                        "segmentId": "segAccountListKA",
+                        "segmentKUID": "41d9786b232d4e08b1f538317bc6af6f",
+                        "widgetKUID": "p2kwiet129351996819233",
+                        "itemKUID": "9e1347a67cdb4e9c8501d2589037ac87",
+                        "forkedPlatform": "all"
+                    }
+                },
+                "ME_Mapping_5f39a9cb6b4e4e1eab16226ef044fc79": {
+                    "channel": "mobile",
+                    "id": "ME_Mapping_5f39a9cb6b4e4e1eab16226ef044fc79",
+                    "type": "MAPPING",
+                    "callbackType": null,
+                    "source": {
+                        "type": "Services",
+                        "propertyName": "BillingStreet",
+                        "dataType": "string",
+                        "collectionId": "Account",
+                        "forkedPlatform": "all",
+                        "serviceconfig": {
+                            "servicename": "integrationSalesForce",
+                            "type": "integration",
+                            "operationname": "queryAllAccount"
+                        }
+                    },
+                    "target": {
+                        "type": "Forms",
+                        "propertyName": "text",
+                        "widgetId": "lblAccountLocationKA",
+                        "widgetType": "Label",
+                        "dataType": "string",
+                        "itemId": "frmAccountList",
+                        "parentMappingId": "ME_Mapping_81a12daf6c224b70b729577f1ed32144",
+                        "segmentId": "segAccountListKA",
+                        "segmentKUID": "41d9786b232d4e08b1f538317bc6af6f",
+                        "widgetKUID": "p2kwiet129351996819228",
+                        "itemKUID": "9e1347a67cdb4e9c8501d2589037ac87",
+                        "expression": "",
+                        "forkedPlatform": "all"
+                    }
+                },
+                "ME_Mapping_7d0da0bc2adf42ea984d4783790d69fb": {
+                    "channel": "mobile",
+                    "id": "ME_Mapping_7d0da0bc2adf42ea984d4783790d69fb",
+                    "type": "MAPPING",
+                    "callbackType": null,
+                    "source": {
+                        "type": "Services",
+                        "propertyName": "Account",
+                        "dataType": "collection",
+                        "forkedPlatform": "all",
+                        "serviceconfig": {
+                            "servicename": "integrationSalesForce",
+                            "type": "integration",
+                            "operationname": "queryAllAccount"
+                        }
+                    },
+                    "target": {
+                        "type": "Variables",
+                        "propertyName": "accountsTab",
+                        "dataType": "collection",
+                        "forkedPlatform": "all"
+                    }
+                },
+                "ME_Mapping_da549a0390e34ef7a3592f2a2bfc05b3": {
+                    "channel": "mobile",
+                    "id": "ME_Mapping_da549a0390e34ef7a3592f2a2bfc05b3",
+                    "type": "MAPPING",
+                    "callbackType": null,
+                    "source": {
+                        "type": "Services",
+                        "propertyName": "LastModifiedDate",
+                        "dataType": "string",
+                        "collectionId": "Account",
+                        "forkedPlatform": "all",
+                        "serviceconfig": {
+                            "servicename": "integrationSalesForce",
+                            "type": "integration",
+                            "operationname": "queryAllAccount"
+                        }
+                    },
+                    "target": {
+                        "type": "Forms",
+                        "propertyName": "text",
+                        "widgetId": "lblLastActivityKA",
+                        "widgetType": "Label",
+                        "dataType": "string",
+                        "itemId": "frmAccountList",
+                        "parentMappingId": "ME_Mapping_81a12daf6c224b70b729577f1ed32144",
+                        "segmentId": "segAccountListKA",
+                        "segmentKUID": "41d9786b232d4e08b1f538317bc6af6f",
+                        "widgetKUID": "p2kwiet129351996819229",
+                        "itemKUID": "9e1347a67cdb4e9c8501d2589037ac87",
+                        "forkedPlatform": "all"
+                    }
+                },
+                "ME_Mapping_6e71abe8f20943918d78efcb0814ab7f": {
+                    "channel": "mobile",
+                    "id": "ME_Mapping_6e71abe8f20943918d78efcb0814ab7f",
+                    "type": "MAPPING",
+                    "callbackType": null,
+                    "source": {
+                        "type": "Services",
+                        "propertyName": "BillingState",
+                        "dataType": "string",
+                        "collectionId": "Account",
+                        "forkedPlatform": "all",
+                        "serviceconfig": {
+                            "servicename": "integrationSalesForce",
+                            "type": "integration",
+                            "operationname": "queryAllAccount"
+                        }
+                    },
+                    "target": {
+                        "type": "Forms",
+                        "propertyName": "text",
+                        "widgetId": "lblStateKA",
+                        "widgetType": "Label",
+                        "dataType": "string",
+                        "itemId": "frmAccountList",
+                        "parentMappingId": "ME_Mapping_81a12daf6c224b70b729577f1ed32144",
+                        "segmentId": "segAccountListKA",
+                        "segmentKUID": "41d9786b232d4e08b1f538317bc6af6f",
+                        "widgetKUID": "p2kwiet129351996819230",
+                        "itemKUID": "9e1347a67cdb4e9c8501d2589037ac87",
+                        "forkedPlatform": "all"
+                    }
+                },
+                "ME_Mapping_70a05c02dfe0407eb5d47e30de926669": {
+                    "channel": "mobile",
+                    "id": "ME_Mapping_70a05c02dfe0407eb5d47e30de926669",
+                    "type": "MAPPING",
+                    "callbackType": null,
+                    "source": {
+                        "type": "Services",
+                        "propertyName": "Type",
+                        "dataType": "string",
+                        "collectionId": "Account",
+                        "forkedPlatform": "all",
+                        "serviceconfig": {
+                            "servicename": "integrationSalesForce",
+                            "type": "integration",
+                            "operationname": "queryAllAccount"
+                        }
+                    },
+                    "target": {
+                        "type": "Forms",
+                        "propertyName": "text",
+                        "widgetId": "lblAccountStatusKA",
+                        "widgetType": "Label",
+                        "dataType": "string",
+                        "itemId": "frmAccountList",
+                        "parentMappingId": "ME_Mapping_81a12daf6c224b70b729577f1ed32144",
+                        "segmentId": "segAccountListKA",
+                        "segmentKUID": "41d9786b232d4e08b1f538317bc6af6f",
+                        "widgetKUID": "p2kwiet129351996819231",
+                        "itemKUID": "9e1347a67cdb4e9c8501d2589037ac87",
+                        "forkedPlatform": "all"
+                    }
+                },
+                "ME_Mapping_f288085945724350a4f3ce2dfd30ebde": {
+                    "channel": "mobile",
+                    "id": "ME_Mapping_f288085945724350a4f3ce2dfd30ebde",
+                    "type": "MAPPING",
+                    "callbackType": null,
+                    "source": {
+                        "type": "Services",
+                        "propertyName": "Id",
+                        "dataType": "string",
+                        "collectionId": "Account",
+                        "forkedPlatform": "all",
+                        "serviceconfig": {
+                            "servicename": "integrationSalesForce",
+                            "type": "integration",
+                            "operationname": "queryAllAccount"
+                        }
+                    },
+                    "target": {
+                        "type": "Forms",
+                        "propertyName": "text",
+                        "widgetId": "lblIndustryValKA",
+                        "widgetType": "Label",
+                        "dataType": "string",
+                        "itemId": "frmAccountList",
+                        "parentMappingId": "ME_Mapping_81a12daf6c224b70b729577f1ed32144",
+                        "segmentId": "segAccountListKA",
+                        "segmentKUID": "41d9786b232d4e08b1f538317bc6af6f",
+                        "widgetKUID": "p2kwiet129351996819232",
+                        "itemKUID": "9e1347a67cdb4e9c8501d2589037ac87",
+                        "forkedPlatform": "all"
+                    }
+                },
+                "ME_Mapping_02d77fd747d744369d088450e40ffa9d": {
+                    "channel": "mobile",
+                    "id": "ME_Mapping_02d77fd747d744369d088450e40ffa9d",
+                    "type": "MAPPING",
+                    "callbackType": null,
+                    "source": {
+                        "type": "Services",
+                        "propertyName": "Phone",
+                        "dataType": "string",
+                        "collectionId": "Account",
+                        "forkedPlatform": "all",
+                        "serviceconfig": {
+                            "servicename": "integrationSalesForce",
+                            "type": "integration",
+                            "operationname": "queryAllAccount"
+                        }
+                    },
+                    "target": {
+                        "type": "Forms",
+                        "propertyName": "text",
+                        "widgetId": "lblPhoneNumKA",
+                        "widgetType": "Label",
+                        "dataType": "string",
+                        "itemId": "frmAccountList",
+                        "parentMappingId": "ME_Mapping_81a12daf6c224b70b729577f1ed32144",
+                        "segmentId": "segAccountListKA",
+                        "segmentKUID": "41d9786b232d4e08b1f538317bc6af6f",
+                        "widgetKUID": "9eed41f217a54d3390a1448ce6e11b52",
+                        "itemKUID": "9e1347a67cdb4e9c8501d2589037ac87",
+                        "forkedPlatform": "all"
+                    }
+                },
+                "ME_Mapping_b382dede11e84802abe6040826407bb1": {
+                    "channel": "mobile",
+                    "id": "ME_Mapping_b382dede11e84802abe6040826407bb1",
+                    "type": "MAPPING",
+                    "callbackType": null,
+                    "source": {
+                        "type": "Services",
+                        "propertyName": "Fax",
+                        "dataType": "string",
+                        "collectionId": "Account",
+                        "forkedPlatform": "all",
+                        "serviceconfig": {
+                            "servicename": "integrationSalesForce",
+                            "type": "integration",
+                            "operationname": "queryAllAccount"
+                        }
+                    },
+                    "target": {
+                        "type": "Forms",
+                        "propertyName": "text",
+                        "widgetId": "lblFaxNumKA",
+                        "widgetType": "Label",
+                        "dataType": "string",
+                        "itemId": "frmAccountList",
+                        "parentMappingId": "ME_Mapping_81a12daf6c224b70b729577f1ed32144",
+                        "segmentId": "segAccountListKA",
+                        "segmentKUID": "41d9786b232d4e08b1f538317bc6af6f",
+                        "widgetKUID": "245af16912d94f12920ea4846d1b3dcb",
+                        "itemKUID": "9e1347a67cdb4e9c8501d2589037ac87",
+                        "forkedPlatform": "all"
+                    }
+                },
+                "ME_Mapping_bd5b20d53b2049ac849b2602962619d3": {
+                    "channel": "mobile",
+                    "id": "ME_Mapping_bd5b20d53b2049ac849b2602962619d3",
+                    "type": "MAPPING",
+                    "callbackType": null,
+                    "source": {
+                        "type": "Services",
+                        "propertyName": "BillingStreet",
+                        "dataType": "string",
+                        "collectionId": "Account",
+                        "forkedPlatform": "all",
+                        "serviceconfig": {
+                            "servicename": "integrationSalesForce",
+                            "type": "integration",
+                            "operationname": "queryAllAccount"
+                        }
+                    },
+                    "target": {
+                        "type": "Forms",
+                        "propertyName": "text",
+                        "widgetId": "lblPrimeAddrsKA",
+                        "widgetType": "Label",
+                        "dataType": "string",
+                        "itemId": "frmAccountList",
+                        "parentMappingId": "ME_Mapping_81a12daf6c224b70b729577f1ed32144",
+                        "segmentId": "segAccountListKA",
+                        "segmentKUID": "41d9786b232d4e08b1f538317bc6af6f",
+                        "widgetKUID": "88110063bf1344f89966e589cbf03aaa",
+                        "itemKUID": "9e1347a67cdb4e9c8501d2589037ac87",
+                        "forkedPlatform": "all"
+                    }
+                },
+                "ME_Mapping_1ab3870dc6e84094b992273cb9a537d3": {
+                    "channel": "mobile",
+                    "id": "ME_Mapping_1ab3870dc6e84094b992273cb9a537d3",
+                    "type": "MAPPING",
+                    "callbackType": null,
+                    "source": {
+                        "type": "Services",
+                        "propertyName": "Website",
+                        "dataType": "string",
+                        "collectionId": "Account",
+                        "forkedPlatform": "all",
+                        "serviceconfig": {
+                            "servicename": "integrationSalesForce",
+                            "type": "integration",
+                            "operationname": "queryAllAccount"
+                        }
+                    },
+                    "target": {
+                        "type": "Forms",
+                        "propertyName": "text",
+                        "widgetId": "lblWebsiteNameKA",
+                        "widgetType": "Label",
+                        "dataType": "string",
+                        "itemId": "frmAccountList",
+                        "parentMappingId": "ME_Mapping_81a12daf6c224b70b729577f1ed32144",
+                        "segmentId": "segAccountListKA",
+                        "segmentKUID": "41d9786b232d4e08b1f538317bc6af6f",
+                        "widgetKUID": "2cbfcb208fe542369315a612f5a2fe26",
+                        "itemKUID": "9e1347a67cdb4e9c8501d2589037ac87",
+                        "forkedPlatform": "all"
+                    }
+                },
+                "ME_Mapping_31467639246f4bf7bfaaa89bf7a77d76": {
+                    "channel": "mobile",
+                    "id": "ME_Mapping_31467639246f4bf7bfaaa89bf7a77d76",
+                    "type": "MAPPING",
+                    "callbackType": null,
+                    "source": {
+                        "type": "Services",
+                        "propertyName": "Ownership",
+                        "dataType": "string",
+                        "collectionId": "Account",
+                        "forkedPlatform": "all",
+                        "serviceconfig": {
+                            "servicename": "integrationSalesForce",
+                            "type": "integration",
+                            "operationname": "queryAllAccount"
+                        }
+                    },
+                    "target": {
+                        "type": "Forms",
+                        "propertyName": "text",
+                        "widgetId": "lblOwnerNameKA",
+                        "widgetType": "Label",
+                        "dataType": "string",
+                        "itemId": "frmAccountList",
+                        "parentMappingId": "ME_Mapping_81a12daf6c224b70b729577f1ed32144",
+                        "segmentId": "segAccountListKA",
+                        "segmentKUID": "41d9786b232d4e08b1f538317bc6af6f",
+                        "widgetKUID": "f63b558fcb774bcdba0ec2e8aa2a8e7f",
+                        "itemKUID": "9e1347a67cdb4e9c8501d2589037ac87",
+                        "forkedPlatform": "all"
+                    }
+                }
+            },
+            "mappingsOrder": ["ME_Mapping_81a12daf6c224b70b729577f1ed32144", "ME_Mapping_05d2036e70b043888e945aaf9ef5aefd", "ME_Mapping_5f39a9cb6b4e4e1eab16226ef044fc79", "ME_Mapping_7d0da0bc2adf42ea984d4783790d69fb", "ME_Mapping_da549a0390e34ef7a3592f2a2bfc05b3", "ME_Mapping_6e71abe8f20943918d78efcb0814ab7f", "ME_Mapping_70a05c02dfe0407eb5d47e30de926669", "ME_Mapping_f288085945724350a4f3ce2dfd30ebde", "ME_Mapping_02d77fd747d744369d088450e40ffa9d", "ME_Mapping_b382dede11e84802abe6040826407bb1", "ME_Mapping_bd5b20d53b2049ac849b2602962619d3", "ME_Mapping_1ab3870dc6e84094b992273cb9a537d3", "ME_Mapping_31467639246f4bf7bfaaa89bf7a77d76"],
+            "parentId": "INVOKE_ASYNC_SERVICE__12c692f5b317461ea8e8f257999b8781",
+            "callbackType": "Callback",
+            "enableMappingEditor": true
+        }]
+    }
+}

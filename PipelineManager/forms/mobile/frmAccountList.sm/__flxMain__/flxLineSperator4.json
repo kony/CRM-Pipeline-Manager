@@ -1,0 +1,51 @@
+{
+    "__parentReadjusting__": false,
+    "_padding_": [
+        0,
+        0,
+        0,
+        0
+    ],
+    "_skin_": "s0d47f6b406a4cfe960ce478f6905451",
+    "_srcKuid_": "b988f7d171234a7f9bf8293a37d61c24",
+    "canUpdateUI": true,
+    "channel": "mobile",
+    "children": [],
+    "context": {},
+    "dataDiffs": {
+        "centerX": {
+            "type": "string",
+            "value": "50%"
+        },
+        "clipBounds": true,
+        "enableScrolling": true,
+        "height": {
+            "type": "string",
+            "value": "1dp"
+        },
+        "id": "flxLineSperator4",
+        "layoutType": 2,
+        "snapGridSize": 10,
+        "snapToGrid": true,
+        "top": {
+            "type": "string",
+            "value": "0%"
+        },
+        "width": {
+            "type": "string",
+            "value": "100%"
+        },
+        "zIndex": 1
+    },
+    "id": "flxLineSperator4",
+    "instanceOf": "b988f7d171234a7f9bf8293a37d61c24",
+    "isvisible": false,
+    "kuid": "m9424941432041438c220801f217f6a2",
+    "layouttype": 2,
+    "masterInstance": true,
+    "name": "kony.ui.FlexContainer",
+    "parent": "flxMenu",
+    "pf": "frmAccountList",
+    "topLevelInstanceKUID": "m3d6611f02a1425aa308d617f6cf4c15",
+    "wType": "FlexContainer"
+}

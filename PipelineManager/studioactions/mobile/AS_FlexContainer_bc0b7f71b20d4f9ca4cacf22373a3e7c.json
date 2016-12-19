@@ -1,0 +1,23 @@
+{
+    "AS_FlexContainer_bc0b7f71b20d4f9ca4cacf22373a3e7c": {
+        "id": "AS_FlexContainer_bc0b7f71b20d4f9ca4cacf22373a3e7c",
+        "type": "ACTION_SEQUENCE",
+        "params": [{
+            "datatype": "collection",
+            "name": "eventobject"
+        }, {
+            "datatype": "string",
+            "name": "x"
+        }, {
+            "datatype": "string",
+            "name": "y"
+        }],
+        "sourceObj": {
+            "itemKUID": "9eabf76e652f403eba8d0172900a96ef",
+            "widgetKUID": "ef6061007e134322bc2cdc9c46104ed1",
+            "evt": "onTouchStart"
+        },
+        "language": "js",
+        "actions": []
+    }
+}
