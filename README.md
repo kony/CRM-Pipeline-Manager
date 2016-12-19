@@ -57,3 +57,4 @@ Cloud :
 **Mobile**
  * Android
  * iPhone
+ CertifiedAtKonyCommunity
