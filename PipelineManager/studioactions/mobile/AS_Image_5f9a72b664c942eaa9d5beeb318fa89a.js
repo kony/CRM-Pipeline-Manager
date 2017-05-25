@@ -1,1 +1,0 @@
-function AS_Image_5f9a72b664c942eaa9d5beeb318fa89a(eventobject, x, y) {}

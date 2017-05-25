@@ -1,1 +1,0 @@
-function AS_Button_b6742cce207f4f99847fc2f15464f71e(eventobject, x, y) {}

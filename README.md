@@ -7,30 +7,15 @@ It includes a tour of a sample Salesforce integrated application built with Visu
 1. Download the project zip file.
 
 2. Unzip the project to any folder.
-3. Launch Kony Visualizer Enterprise version 7.0.
+3. Launch Kony Visualizer Enterprise version 7.3.
 
-4. Import the project into Kony Visualizer Enterprise version 7.0.
+4. Import the project into Kony Visualizer Enterprise version 7.3.
 
-5. Build and Run the app.
+5. Download and import Mobile Fabric app https://github.com/kony/SF-PipelineManager-MobileFabric
 
+6. Build and Run the app.
 
-
-**To Run This App in Kony Visualizer :**
-
-
-1. Download the project zip file.
-
-2. Unzip the project to any folder.
-
-3. Launch Kony Visualizer
-.
-4. Import it into Kony Visualizer Starter Edition 7.0.
-
-5. Run the app as "Run Studio".
-
-6. Launch in Functional Preview through Local account or Cloud.
-
-
+Note: not supported in starter edition.
 
 Local :
 
